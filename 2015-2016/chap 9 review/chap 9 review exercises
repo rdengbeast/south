@@ -1,0 +1,19 @@
+9.1
+classes: coin class, vendmachine class that takes coin objects
+9.3:
+Invoice class, address class
+9.11: b, c
+9.12: Integer
+
+9.15: a x is positive
+b: n is an integer
+c: a is not a vertical line
+d: day is not out of the bounds of the week
+ 
+ 9.17
+ a: that s is an int
+ d: the indecies are in the bounds of the string
+ 
+ 9.24: the other method besides main is not static
+ 9.25: all the ones that are "get"something. for example, getFloat() is not static and neither is getLong()
+ 

@@ -1,0 +1,32 @@
+1 : 9 bits
+2: 5 bytes
+3 : 307200 pixels
+
+ex 2: 
+1 Lots of red and blue, about half as much green
+2 Lots of blue and green not much red
+3 Lots of blue and red, not as much green
+4 max every color
+5 very little of each color
+
+ex 3
+1	0
+2	0
+3	640
+4	480
+5	top to bottom
+6	left to right
+7	
+ A5:
+ 1: no
+ 2: yes
+ 3: n
+ 4: n
+ 5: y
+ 6: y 
+ 7: y
+ 
+ a7
+ 1: 90
+ 2: 112
+ 

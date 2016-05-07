@@ -1,0 +1,8 @@
+18.2: 
+public int smallest(int[] nums)
+base case: when array.length == 0
+recursive call to nums without first element
+
+18.4:
+find all subsets of 1, 2, ,3....n
+find subsets of set without first number, then add the first one to each, add first number to end also

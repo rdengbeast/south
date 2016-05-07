@@ -1,0 +1,90 @@
+exercise 7.2: 
+000000000
+0123456789
+0246802468
+0369258147
+0482604826
+0505050505
+0628406284
+0741852963
+0864208642
+0987654321
+
+exercise 7.3
+a, 10, b, 10, c, 10, d, 21, e, infinite, f, 11, g, 7
+
+exercise 7.4
+int s = 0;
+int i = 1;
+while( i <= 10 )
+{
+	s = s + 1;
+	i++;
+}
+
+exercise 7.5 
+int n = 1; 
+double x = 0;
+double s;
+while( n < 10);
+{
+	s = 1.0/ (n * n);
+	x = x + s;
+	n++;
+}
+
+7.11
+"off by one error" is when somebody tries to use a loop for something, but the loop accidentally runs one more time
+than the person wanted it to run. Once I wanted a for loop to run ten times, but I had <= instead of <, so the loop ran 11 times.
+
+7.12
+boolean numexistsbetweenvalues = true;
+for(int i = 1; i <= 10; i++)
+{
+	if( i == testnumber )
+		numexistsbetweenvalues = false;
+}
+
+for( int i = 1; i < array.length; i++)
+{
+	if(array[i] <= somevalue)
+		return i;		
+}
+
+7.7
+while( continue )
+{
+	String name = in.Next();
+	if(!name.equals("london")
+		continue = false;
+	if( !in.hasNextInt() )
+		continue = false;
+	else
+		System.out.println( in.NextInt() * 0.3048 );		
+}
+
+//scanner c
+while( true )
+{
+	String name = in.Next();
+	if(!name.equals("london" ) );
+		break;
+	if( !in.hasNextInt() )
+		break;
+	else
+		System.out.println( in.NextInt() * 0.3048 );
+}
+
+public String validBridge()
+{
+	String returnval = null;
+	if( !name.equals("london" ) )
+		returnval = "not valid name";
+	if( !in.hasNextInt() )
+		returnval = "not valid length";
+	else
+		returnval = in.NextInt() * 0.3048 + "";
+	return returnval
+}
+
+I like the boolean variable method of doing it.

@@ -1,0 +1,40 @@
+13.2
+constructor that takes a double, which the interest rate will be set to;
+inherits deposit(), withdraw(), getBalance(), transfer(double amount, BankAccount other)
+addInterest() is added to savingsaccount
+===========
+13.4
+super, sub
+Employee, manager
+polygon, triangle
+student, GraduateStudent
+Person, Student
+Employee, GraduateStudent
+BankAccount, CheckingAccount
+Vehicle, Car
+Vehicle, minivan
+car, minivan
+vehicle, truck
+
+13.7
+                                                       vehicle
+                                   car                    bicycle           motorcycle
+                      truck  sedan   coupe SUV minivan
+               pickup truck
+               
+13.1
+$2750
+13.3: need cast from less to more specific.
+13.5: yes: a, d
+13.9: b, e, f, g, h
+13.10: super used to access superclass method or constructor
+
+13.11: both are because both call g, and yet point to different methods.
+13.12: first ones late , getBalance is is early binding because it belongs to BankAccount
+13.14: instance fields should be private. static fields could be public because that's part of their functionality
+13.15: instance methods and static methods should be public
+13.16: I think you could overwrite them, the same as you would for instance methods
+13.17: public fields are dangerous because they can be changed by a client program unintentionally.
+
+shallow vs deep: shallow is where instance field points to original copy
+deep: brand new object with stuff copied.

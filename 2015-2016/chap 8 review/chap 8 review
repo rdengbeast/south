@@ -1,0 +1,106 @@
+8.3
+=========
+int max = 0;
+int min = 0;
+for( int i = 0; i < array.arraylength; i++)
+{
+	if( array[i] < min )
+		min = array[i]
+	if( array[i] > max )
+		max = array[i];
+}
+=========
+8.4
+=========
+int arraylength = 0;
+for(int j = 1; j <= 10; j++)
+{
+	arraylength++;
+	int [] intarraycopy = intarray;
+	intarray = new int[arraylength];
+	for( int i = 0; i < intarraycopy.length ; i++)
+	{
+		intarray[i] = intarraycopy[i];
+	}
+	intarray[ intarray.length - 1 ] = in.nextInt();
+	
+}
+for( int i = 0; i < intarray.length; i++)
+	System.out.println( intarray[10 - i ] );
+==========
+8.7
+for(int i = 1; i <= 10; i++)
+	array[i - 1] = i;
+for(int i = 0; i <= 10; i++)
+	array[i] = i * 2;
+for( int i = 1; i <= 10; i++)
+	array[i - 1] = i * i;
+for( int i = 0; i < 10; i++)
+	array[i] = 0;
+int array [] = {1, 4, 9, 16, 4, 9, 11 };
+=============
+8.10
+============
+for(int i = 0; i < 10; i++)
+	array[i] = 100 - (int)( Math.random() * (100);
+===========
+8.1
+an index is the location of an element of an array or an arraylist.
+The bounds of an arraylist are the possible indexes of an arraylist that can be accessed.
+An out of bounds error occurs when somebody tries to access an element out of the bounds of the arraylist.
+8.5
+public BankAccount getMaximum()
+{
+	if(accounts.size() == 0 ) return null;
+	BankAccount largestYet = null;
+	for(BankAccount a : accounts)
+	{
+		if(a.getBalance() > largestYet.getBalance() )
+			largestYet = a.getBalance();
+		else if(largestYet == null)
+			largestYet = a.getBalance();
+	}
+	return largestYet;
+}
+I think it seems to be more efficient
+8.6
+	if all the values are negative, then the thing doesn't work.
+	I think this could be fixed if you used a standard for loop and set the initia max to the first array element.
+8.11
+	for( int i = 0; i < data.length; i++)
+		sum = sum + data[i];
+	for(int i = 0; i < data.length; i++)
+	{
+		if(data[x] == target)
+			return true
+	}
+	for(int i = 0; i < data.size; i++)
+	{
+		int [] datatemp = data;
+		data[i] = 2 * datatemp[i];
+	}
+8.12
+	for(x : data)
+		sum += x;
+	for(x : data)
+		sum += x;
+	sum -= data[0];
+	
+	for(x : data)
+	{
+		if(x === target)
+			return data.indexof(x);
+	}
+8.13
+8.15	these are arrays that store different information about the same object in separate and different arrays.
+		these are bad because you can easily mess one array up and you wouldn't know which array to fix.
+		also, it's not efficient at all and a bit messy.
+8.16	use the ==
+		system.arraycopy();
+		for loop, make each element zero
+		for(int i = 0; i < data.length; i++)
+			data[i] = 0;
+		arraylistname.removeall();
+8.17 true, true; ?, true, true, false, true, false, false, 
+r 8.18 false
+8.18 

@@ -1,0 +1,13 @@
+4.4 an integer overflow can be Integer.MAX_VALUE + 5, where the result would just be the lowest possible integer plus 5. 
+a floating point roundoff is when a float/double have small values after what's shown on the screen. like 1.0 would actually be something like 1.000000000000001
+
+
+4.5	the program uses doubles to add/subtract, so when you add them they amount to a little more than what you're expecting. a good solution is to 
+	make a method that rounds the amount to a specified decimal place.
+4.6, the first one you take away all decimal places, the second, you round the floating thing
+4.7	again, the first one you take the sum, then take away all decimal places. second, you just round the number.
+	3.0 would give same answers, 3.6 wouldn't
+4.15 a final variable can't be changed. and no, you can't define a final without supplying a value.	 
+4.11	true, false, false
+4.12	getting first character of a string: string.substring(0, 1); Last character of a string: string.substring( string.length() - 1);
+		removing: string anewstring = string.substring(1, string.length() ); stringanewstring = string.substring(0, string.length() );

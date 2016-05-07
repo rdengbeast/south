@@ -1,0 +1,13 @@
+11.1: the first one, third one
+11.2: none
+11.3: a, b, c, g
+11.4: well, you're promising the compiler that you have included the methods you needed to in the interface. 
+the other way, youre just saying that you know you could lose data.
+11.6: 
+
+11.7:
+this is polymorhpism because you can shift between states of objects that you've made.
+
+11.8:
+methods not included in interfaces
+static methods???

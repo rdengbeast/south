@@ -1,0 +1,10 @@
+IndexOf returns -1 when the string doesn't occur
+
+word:	iteration:		psn:	before: 	after:
+sister	1				9		" "			""
+brother	1				0		""			" "
+cat		1				8		" "			"c"
+		2				19		" "			"s"
+no		1				3		" " 		"w"
+		2				7		" " 		"t"
+		3				22		"s"			"w"

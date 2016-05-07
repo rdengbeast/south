@@ -3,5 +3,22 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Recursion"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="src" path="chapter_02"/>
+	<classpathentry kind="src" path="chapter_03"/>
+	<classpathentry kind="src" path="chapter_04"/>
+	<classpathentry kind="src" path="chapter_06"/>
+	<classpathentry kind="src" path="Monty_Hall_Game"/>
+	<classpathentry kind="src" path="pictures_lab"/>
+	<classpathentry kind="src" path="chapter_11"/>
+	<classpathentry kind="src" path="chapter_13"/>
+	<classpathentry kind="src" path="Chapter_10"/>
+	<classpathentry kind="src" path="magpie_lab"/>
+	<classpathentry kind="src" path="ZipCode"/>
+	<classpathentry kind="src" path="chapter_08"/>
+	<classpathentry kind="src" path="chapter_07"/>
+	<classpathentry kind="src" path="piglatin"/>
+	<classpathentry kind="src" path="chapter_18"/>
+	<classpathentry kind="src" path="blackjak me"/>
+	<classpathentry kind="src" path="Yahtzee"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
