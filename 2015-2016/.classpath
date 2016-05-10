@@ -19,5 +19,6 @@
 	<classpathentry kind="src" path="chapter_18"/>
 	<classpathentry kind="src" path="blackjak me"/>
 	<classpathentry kind="src" path="Yahtzee"/>
+	<classpathentry kind="src" path="graphs"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
