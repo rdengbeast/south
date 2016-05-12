@@ -72,7 +72,7 @@ void printcontrols()
   
   fill(51, 102, 0);
   text("adjust left: w/s", 250, 350);
-  text("fire: space", 250, 550);
+//  text("fire: space", 250, 550);
   
 }
 void keyPressed()
@@ -132,7 +132,7 @@ void check()
   double rightyDist = right.getY() - ball.getY();
   if (ball.getX() > 50 && ball.getX() - 50 <= 20 )
   {
-    if(Math.abs(leftyDist) < 50 )
+    if(Math.abs(leftyDist) < 70 )
     {
       ball.setXVelocity( ball.getXVelocity() * (-1) );
       ball.setYVelocity( ball.getYVelocity() - leftyDist * 0.3);
@@ -140,7 +140,7 @@ void check()
   } 
   else if (ball.getX() < 1150 && 1150 - ball.getX() <= 20 )
   {
-    if( Math.abs(rightyDist) < 50 )
+    if( Math.abs(rightyDist) < 70 )
     {
       ball.setXVelocity( ball.getXVelocity() * (-1) );
       ball.setYVelocity( ball.getYVelocity() - rightyDist * 0.3);
