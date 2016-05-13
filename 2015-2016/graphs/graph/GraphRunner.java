@@ -17,7 +17,9 @@ public class GraphRunner
 	{
 		String s1 = "";
 		Graph p;
-		Scanner file = new Scanner(new File("H:/workspace3/BinaryTree/src/graph/graph1.dat"));
+//		Scanner file = new Scanner(new File("H:/workspace3/2015-2016/graphs/graph/graph1.dat"));
+		Scanner file = new Scanner(new File("H:/workspace3/BinaryTree/graphs/graph/graph1.dat"));
+
 		int howManyTimes = file.nextInt();
 		file.nextLine();
 		for(int x=0; x<howManyTimes; x++)

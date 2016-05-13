@@ -67,6 +67,7 @@ public class Graph
 					placesUsed += first;
 					check(nextletter, second, placesUsed, steps + 1, t + nextletter);					
 				}
+				
 			}
 		}
 	}
